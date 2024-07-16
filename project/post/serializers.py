@@ -18,6 +18,7 @@ class PostSerializer(serializers.ModelSerializer):
             "cread_at",
             "updated_at",
             "like_count"
+            "likes"
             "comments",
         ]
 
